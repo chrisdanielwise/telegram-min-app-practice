@@ -1,0 +1,76 @@
+.app-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.telegram-params {
+  margin-top: 20px;
+}
+
+.telegram-params h2 {
+  margin-bottom: 10px;
+}
+
+.telegram-params pre {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-button,
+.main-button,
+.settings-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #fff;
+  color: #333;
+}
+
+.main-button {
+  background-color: #2481cc;
+  color: #fff;
+}
+
+.settings-button {
+  background-color: #333;
+  color: #fff;
+}
+
+.haptic-feedback,
+.cloud-storage {
+  margin-top: 20px;
+}
+
+.haptic-feedback pre,
+.cloud-storage pre {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.back-button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
